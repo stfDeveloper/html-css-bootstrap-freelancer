@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: rgb(49, 49, 49);
+}
+nav{
+    background-color: rgb(49, 49, 49);
+}
+.nav-right h1{
+    font-size: 18px;
+    display: flex;
+    align-self: center;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+.start{
+    background-color: rgb(103, 163, 103);
+    color: white;
+} 
+.portfolio{
+    background-color: white;
+    color: black;
+    margin: 25px;
+}
+img{
+    width: 100%;
+    border-radius: 15px 15px;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
