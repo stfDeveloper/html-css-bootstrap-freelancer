@@ -7,18 +7,23 @@ html{
     text-align: center;
 }
 .header{
-    background-color: rgb(31, 31, 31);
-    color: white;
+    background-color: rgb(49, 49, 49);
+}
+nav{
+    background-color: rgb(49, 49, 49);
 }
 .nav-right h1{
     font-size: 18px;
     display: flex;
     align-self: center;
 }
+.avatar{
+    width: 200px;
+    height: 200px;
+}
 .start{
     background-color: rgb(103, 163, 103);
     color: white;
-    height: 600px;
 } 
 .portfolio{
     background-color: white;
@@ -28,4 +33,7 @@ html{
 img{
     width: 100%;
     border-radius: 15px 15px;
+}
+.md{
+    font-size: 10px;
 }

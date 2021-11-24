@@ -11,39 +11,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
+   
 <!-- HEADER -->
-        <div class="row d-flex header">
-            <div class="col-6">
-                <h1>START BOOTSTRAP</h1>
-            </div>
-            <div class="col-6 text-center d-flex justify-content-around nav-right">
-                <h1>PORTFOLIO</h1>
-                <h1>ABOUT</h1>
-                <h1>CONTACT</h1>
-            </div> 
-        </div>
-
+    <div class="header">    
+        <nav class="navbar p-3 col navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand fw-bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button"aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="nav collapse navbar-collapse justify-content-end" >
+                    <ul class="navbar-nav fw-bold font-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </div>
         
 <!-- START -->
-        <div class="row d-flex justify-content-center align-content-center start">
-            <img class="w-25" src="img/avatar.svg" alt="">
-
-            <div class="row">
-                <h1>START BOOTSTRAP</h1>
-            </div>
-            <div class="row d-flex justify-content-center ">
-                    <div class="col-1"><hr size="5px" >
+        <div class="start">
+            <div class="container-fluid py-3">
+                <img class="col-12 md-6 sm-4 avatar " src="img/avatar.svg" alt="">
+                <div class="">
+                    <h1>START BOOTSTRAP</h1>
                 </div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-1"><hr size="5px" >
+                    </div>
                     <div class="col-1"><i class="far fa-star"></i>
-                </div>
+                    </div>
                     <div class="col-1"><hr size="5px" >
+                    </div>
                 </div>
-            </div>
-            <div class="row d-flex justify-content-center ">
-                <h2>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATION</h2>
+                <div class="row d-flex justify-content-center ">
+                    <h2>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTRATION</h2>
+                </div>
             </div>
         </div>
+        
 <!-- PORTFOLIO -->
         <div class="row d-flex align-content-center justify-content-center portfolio">
             <h1>PORTFOLIO</h1>
@@ -59,31 +71,53 @@
                 </div>
             </div>
 
-            <div class="container w-75">
+            <div class="container">
                 <div class="row row-cols-3 g-1 images ">
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/cabin.png" alt="">
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/cake.png" alt="">
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/circus.png" alt="">
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/game.png" alt=""> 
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/safe.png" alt="">
                     </div>
-                    <div class="col">
+                    <div class="col col-12 col-sm-6 col-md-4">
                         <img class="p-2" src="img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
-
-
         </div>
+
+<!-- ABOUT -->
+        <div class="start">
+            <div class="container-fluid py-3">
+                <h1>ABOUT</h1>
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-1">
+                        <hr size="5px" >
+                    </div>
+                    <div class="col-1">
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="col-1">
+                        <hr size="5px" >
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center px-5">
+                    <div class="col-8 col-sm-6 mb-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt inventore reiciendis maxime nobis vel quisquam totam iure perspiciatis minima libero impedit laborum eum officiis incidunt ex quia aspernatur, culpa nostrum quasi omnis neque sunt repellat. Minima sunt ut aliquid aliquam, corrupti in sint quo accusantium assumenda saepe, ab adipisci.</div>
+                    <div class="col-8 col-sm-6 mb-3 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore tempore et, cupiditate tenetur enim totam repellendus nostrum alias dolor, nobis ipsa modi eligendi atque voluptatem magni minima aperiam veniam dolores necessitatibus quas eveniet? Consectetur suscipit repudiandae adipisci repellendus esse consequatur ratione quas! At aperiam ut obcaecati laborum cum beatae alias.</div>
+                </div>
+            </div>
+        </div>
+
+
 
 
     </div>
